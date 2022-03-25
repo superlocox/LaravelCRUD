@@ -1,4 +1,10 @@
-@extends('layouts.app')
+@extends('adminlte::page')
+
+@section('title', 'Laravel CRUD')
+
+@section('content_header')
+    <h1>Products</h1>
+@stop
 
 @section('content')
 <div class="container">
